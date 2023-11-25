@@ -1,0 +1,10 @@
+ALTER TABLE `Product` DROP FOREIGN KEY `Product_fk0`;
+
+ALTER TABLE `Product` DROP FOREIGN KEY `Product_fk1`;
+
+ALTER TABLE `Category` DROP FOREIGN KEY `Category_fk0`;
+
+ALTER TABLE `Order` DROP FOREIGN KEY `Order_fk0`;
+
+ALTER TABLE `Order` DROP FOREIGN KEY `Order_fk1`;
+
